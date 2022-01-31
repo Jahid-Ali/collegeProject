@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { SendOutlined } from '@ant-design/icons';
+import M from "materialize-css";
 import axios from 'axios';
 
 const projectID = '10425a58-ac0a-4167-9d9a-97922fcacb1e';
@@ -35,11 +37,13 @@ const Modal = () => {
           <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} className="input" placeholder="Password" required />
           <div align="center">
             <button type="submit" className="button">
-              <span>Start chatting</span>
+              <span>Start chatting 
+                <SendOutlined className="send-iconLogin" />
+              </span>
             </button>
           </div>
         </form>
-        <h1>{error}</h1>
+        <h3 className="errorShow">{error}</h3>
       </div>
     </div>
 

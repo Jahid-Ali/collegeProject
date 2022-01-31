@@ -6,6 +6,8 @@
   letter-spacing: 0.5px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Supermercado+One&display=swap');
+
 .btn{
   color: rgb(248, 247, 247);
   background-color: #E53935;
@@ -60,7 +62,7 @@
 }
 
 .ce-settings {
-  background-color: rgb(240, 240, 240) !important;
+  background-color: rgb(161, 69, 69) !important;
 }
 
 .ce-autocomplete-input {
@@ -206,6 +208,11 @@
   cursor: pointer;
 }
 
+.send-iconLogin {
+  margin-left: 10px;
+  color: #d84207;
+}
+
 .send-icon {
   top: 1px;
   position: relative;
@@ -216,6 +223,11 @@
   top: 1px;
   position: relative;
   font-size: 14px;
+}
+
+.errorShow{
+  margin: 16px;
+  color: #920401;
 }
 
 /* FORM STYLES */
@@ -240,9 +252,9 @@
 
 .input {
   color: #333;
-  font-size: 1.2rem;
+  font-size: 1rem;
 	margin: 0 auto;
-  padding: 1.5rem 2rem;
+  padding: 1.2rem;
   border-radius: 0.2rem;
   background-color: rgb(255, 255, 255);
   border: none;
@@ -251,35 +263,52 @@
   border-bottom: 0.3rem solid transparent;
   transition: all 0.3s;
   outline: none;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
+
+  box-shadow: inset 1px 1px 5px #a1f1ed, inset 0px 0px 5px #555;
 }
 
 .form {
   width: 400px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 .title {
+  font-family: 'Gloria Hallelujah', cursive;
   text-align: center;
   color: white;
   margin-bottom: 30px;
   width: 100%;
-  font-size: 2.3em;;
+  font-size: 2.5em;;
 }
 
 .button {
   border-radius: 4px;
   border: none;
-  background-color: white;
+  background-color: rgb(117, 154, 255);
   color: black;
   text-align: center;
   text-transform: uppercase;
-  font-size: 22px;
-  padding: 20px;
+  font-size: 20px;
+  padding: 12px;
   width: 200px;
   transition: all 0.4s;
   cursor: pointer;
   margin: 5px;
   width: 90%;
+
+  box-shadow: 
+    /* logo shadow*/
+    0px 0px 2px #ff0000,
+
+    /*offset = bhar ke shadow*/
+    0px 0px 0px 5px #ecf0f3,
+
+    /*bottom right*/
+    8px 8px 15px #a7aaaf,
+
+    /*top left*/
+    -8px -8px 15px #b96988;
 }
 .button span {
   cursor: pointer;
@@ -302,3 +331,4 @@
   opacity: 1;
   right: 0;
 }
+

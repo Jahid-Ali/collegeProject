@@ -1,7 +1,6 @@
 import MyMessage from './MyMessage';
 import TheirMessage from './TheirMessage';
 import MessageForm from './MessageForm';
-import M from "materialize-css";
 
 const ChatFeed = (props) => {
   const { chats, activeChat, userName, messages } = props;

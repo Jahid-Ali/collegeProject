@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/collegeProject/static/css/main.402e9d7c.css",
+    "main.js": "/collegeProject/static/js/main.3ed3dce7.js",
+    "index.html": "/collegeProject/index.html",
+    "main.402e9d7c.css.map": "/collegeProject/static/css/main.402e9d7c.css.map",
+    "main.3ed3dce7.js.map": "/collegeProject/static/js/main.3ed3dce7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.402e9d7c.css",
+    "static/js/main.3ed3dce7.js"
+  ]
+}
